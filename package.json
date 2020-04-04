@@ -1,16 +1,16 @@
 {
   "description": "runtime dependencies for bazel_managed_deps example",
   "devDependencies": {
-    "@angular/cli": "^8.2.0",
-    "@angular/compiler": "^8.2.0",
-    "@angular/compiler-cli": "^8.2.0",
-    "@angular/core": "^8.2.0",
-    "@bazel/hide-bazel-files": "^0.35.0",
-    "@bazel/typescript": "^0.35.0",
+    "@angular/cli": "^9.1.0",
+    "@angular/compiler": "^9.1.0",
+    "@angular/compiler-cli": "^9.1.0",
+    "@angular/core": "^9.1.0",
+    "@bazel/hide-bazel-files": "^1.5.0",
+    "@bazel/typescript": "^1.5.0",
     "@ngrx/store": "^8.2.0",
     "jasmine": "^3.2.0",
     "rxjs": "^6.5.2",
-    "typescript": "^3.5.3",
+    "typescript": "3.8.3",
     "zone.js": "^0.10.1"
   },
   "scripts": {
@@ -18,7 +18,7 @@
     "tsc": "tsc -d src/core.*.ts"
   },
   "dependencies": {
-    "@angular-devkit/build-angular": "^0.802.0",
-    "@bazel/bazel": "^0.28.1"
+    "@angular-devkit/build-angular": "^0.901.0",
+    "@bazel/bazel": "^2.1.0"
   }
 }
